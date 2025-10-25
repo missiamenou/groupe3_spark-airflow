@@ -1,0 +1,23 @@
+# Apache Airflow et providers
+apache-airflow==2.10.2
+apache-airflow-providers-apache-spark==4.1.0
+apache-airflow-providers-postgres==5.5.1
+
+# Base de données
+psycopg2-binary==2.9.11
+
+# Analyse de données
+pandas==2.3.3
+numpy==2.3.4
+
+# API et requêtes HTTP
+requests==2.32.3
+
+# Dashboard et visualisation
+streamlit==1.50.0
+plotly==6.3.1
+
+# Autres dépendances utiles
+python-dateutil==2.9.0.post0
+pytz==2024.2
+

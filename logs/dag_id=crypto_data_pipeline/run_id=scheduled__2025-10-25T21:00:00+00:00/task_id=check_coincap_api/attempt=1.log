@@ -1,0 +1,16 @@
+[2025-10-25T21:59:51.745+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-10-25T21:59:51.756+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: crypto_data_pipeline.check_coincap_api scheduled__2025-10-25T21:00:00+00:00 [queued]>
+[2025-10-25T21:59:51.764+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: crypto_data_pipeline.check_coincap_api scheduled__2025-10-25T21:00:00+00:00 [queued]>
+[2025-10-25T21:59:51.765+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 3
+[2025-10-25T21:59:51.775+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): check_coincap_api> on 2025-10-25 21:00:00+00:00
+[2025-10-25T21:59:51.795+0000] {logging_mixin.py:190} WARNING - /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/airflow_env/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=52476) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-10-25T21:59:51.796+0000] {standard_task_runner.py:72} INFO - Started process 52501 to run task
+[2025-10-25T21:59:51.822+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'crypto_data_pipeline', 'check_coincap_api', 'scheduled__2025-10-25T21:00:00+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/dag_import_data.py', '--cfg-path', '/var/folders/gd/5f0ds4vj6jd9v0z37cq1b52h0000gn/T/tmpybshius4']
+[2025-10-25T21:59:51.825+0000] {standard_task_runner.py:105} INFO - Job 4: Subtask check_coincap_api
+[2025-10-25T21:59:51.878+0000] {task_command.py:467} INFO - Running <TaskInstance: crypto_data_pipeline.check_coincap_api scheduled__2025-10-25T21:00:00+00:00 [running]> on host macbook-air-de-komi.local
+[2025-10-25T21:59:51.928+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='groupe3' AIRFLOW_CTX_DAG_ID='crypto_data_pipeline' AIRFLOW_CTX_TASK_ID='check_coincap_api' AIRFLOW_CTX_EXECUTION_DATE='2025-10-25T21:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-10-25T21:00:00+00:00'
+[2025-10-25T21:59:51.929+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-10-25T21:59:51.931+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-10-25T21:59:51.931+0000] {logging_mixin.py:190} INFO - Current task name:check_coincap_api state:running start_date:2025-10-25 21:59:51.757198+00:00
+[2025-10-25T21:59:51.931+0000] {logging_mixin.py:190} INFO - Dag name:crypto_data_pipeline and current dag run status:running
+[2025-10-25T21:59:51.932+0000] {taskinstance.py:731} INFO - ::endgroup::

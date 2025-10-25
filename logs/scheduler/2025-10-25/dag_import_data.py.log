@@ -1,0 +1,111 @@
+[2025-10-25T21:40:53.233+0000] {processor.py:186} INFO - Started process (PID=33647) to work on /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py
+[2025-10-25T21:40:53.233+0000] {processor.py:914} INFO - Processing file /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py for tasks to queue
+[2025-10-25T21:40:53.234+0000] {logging_mixin.py:190} INFO - [2025-10-25T21:40:53.233+0000] {dagbag.py:588} INFO - Filling up the DagBag from /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py
+[2025-10-25T21:40:53.236+0000] {logging_mixin.py:190} INFO - [2025-10-25T21:40:53.234+0000] {dagbag.py:387} ERROR - Failed to import: /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py
+Traceback (most recent call last):
+  File "/Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py", line 2, in <module>
+    from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache.spark'
+[2025-10-25T21:40:53.236+0000] {processor.py:927} WARNING - No viable dags retrieved from /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py
+[2025-10-25T21:40:53.278+0000] {logging_mixin.py:190} INFO - [2025-10-25T21:40:53.278+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-10-25T21:40:53.286+0000] {processor.py:208} INFO - Processing /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py took 0.055 seconds
+[2025-10-25T21:43:27.860+0000] {processor.py:186} INFO - Started process (PID=35546) to work on /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py
+[2025-10-25T21:43:27.861+0000] {processor.py:914} INFO - Processing file /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py for tasks to queue
+[2025-10-25T21:43:27.861+0000] {logging_mixin.py:190} INFO - [2025-10-25T21:43:27.861+0000] {dagbag.py:588} INFO - Filling up the DagBag from /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py
+[2025-10-25T21:43:27.864+0000] {logging_mixin.py:190} INFO - [2025-10-25T21:43:27.863+0000] {dagbag.py:387} ERROR - Failed to import: /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py
+Traceback (most recent call last):
+  File "/Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py", line 2, in <module>
+    from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache.spark'
+[2025-10-25T21:43:27.864+0000] {processor.py:927} WARNING - No viable dags retrieved from /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py
+[2025-10-25T21:43:27.907+0000] {logging_mixin.py:190} INFO - [2025-10-25T21:43:27.907+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-10-25T21:43:27.915+0000] {processor.py:208} INFO - Processing /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py took 0.056 seconds
+[2025-10-25T21:46:15.324+0000] {processor.py:186} INFO - Started process (PID=37998) to work on /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py
+[2025-10-25T21:46:15.328+0000] {processor.py:914} INFO - Processing file /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py for tasks to queue
+[2025-10-25T21:46:15.330+0000] {logging_mixin.py:190} INFO - [2025-10-25T21:46:15.329+0000] {dagbag.py:588} INFO - Filling up the DagBag from /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py
+[2025-10-25T21:46:15.337+0000] {logging_mixin.py:190} INFO - [2025-10-25T21:46:15.334+0000] {dagbag.py:387} ERROR - Failed to import: /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py
+Traceback (most recent call last):
+  File "/Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py", line 2, in <module>
+    from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
+ModuleNotFoundError: No module named 'airflow.providers.apache.spark'
+[2025-10-25T21:46:15.337+0000] {processor.py:927} WARNING - No viable dags retrieved from /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py
+[2025-10-25T21:46:15.384+0000] {logging_mixin.py:190} INFO - [2025-10-25T21:46:15.384+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-10-25T21:46:15.399+0000] {processor.py:208} INFO - Processing /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py took 0.076 seconds
+[2025-10-25T21:50:38.520+0000] {processor.py:186} INFO - Started process (PID=43763) to work on /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py
+[2025-10-25T21:50:38.520+0000] {processor.py:914} INFO - Processing file /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py for tasks to queue
+[2025-10-25T21:50:38.521+0000] {logging_mixin.py:190} INFO - [2025-10-25T21:50:38.521+0000] {dagbag.py:588} INFO - Filling up the DagBag from /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py
+[2025-10-25T21:50:38.547+0000] {logging_mixin.py:190} INFO - [2025-10-25T21:50:38.543+0000] {dagbag.py:387} ERROR - Failed to import: /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py
+Traceback (most recent call last):
+  File "/Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py", line 161, in <module>
+    python_callable=verify_spark_results  # Définir cette fonction
+                    ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'verify_spark_results' is not defined
+[2025-10-25T21:50:38.550+0000] {processor.py:927} WARNING - No viable dags retrieved from /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py
+[2025-10-25T21:50:38.585+0000] {logging_mixin.py:190} INFO - [2025-10-25T21:50:38.584+0000] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-10-25T21:50:38.591+0000] {processor.py:208} INFO - Processing /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py took 0.073 seconds
+[2025-10-25T21:52:16.819+0000] {processor.py:186} INFO - Started process (PID=45420) to work on /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py
+[2025-10-25T21:52:16.820+0000] {processor.py:914} INFO - Processing file /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py for tasks to queue
+[2025-10-25T21:52:16.821+0000] {logging_mixin.py:190} INFO - [2025-10-25T21:52:16.821+0000] {dagbag.py:588} INFO - Filling up the DagBag from /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py
+[2025-10-25T21:52:16.863+0000] {processor.py:925} INFO - DAG(s) 'crypto_data_pipeline' retrieved from /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py
+[2025-10-25T21:52:16.999+0000] {logging_mixin.py:190} INFO - [2025-10-25T21:52:16.999+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:crypto_data_pipeline
+[2025-10-25T21:52:17.004+0000] {logging_mixin.py:190} INFO - [2025-10-25T21:52:17.004+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:crypto_data_pipeline
+[2025-10-25T21:52:17.008+0000] {logging_mixin.py:190} INFO - [2025-10-25T21:52:17.007+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:crypto_data_pipeline
+[2025-10-25T21:52:17.011+0000] {logging_mixin.py:190} INFO - [2025-10-25T21:52:17.011+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:crypto_data_pipeline
+[2025-10-25T21:52:17.013+0000] {logging_mixin.py:190} INFO - [2025-10-25T21:52:17.013+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:crypto_data_pipeline
+[2025-10-25T21:52:17.016+0000] {logging_mixin.py:190} INFO - [2025-10-25T21:52:17.016+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:crypto_data_pipeline
+[2025-10-25T21:52:17.018+0000] {logging_mixin.py:190} INFO - [2025-10-25T21:52:17.018+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:crypto_data_pipeline
+[2025-10-25T21:52:17.018+0000] {logging_mixin.py:190} INFO - [2025-10-25T21:52:17.018+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-25T21:52:17.022+0000] {logging_mixin.py:190} INFO - [2025-10-25T21:52:17.022+0000] {dag.py:3262} INFO - Creating ORM DAG for crypto_data_pipeline
+[2025-10-25T21:52:17.026+0000] {logging_mixin.py:190} INFO - [2025-10-25T21:52:17.026+0000] {dag.py:4180} INFO - Setting next_dagrun for crypto_data_pipeline to 2025-10-25 21:00:00+00:00, run_after=2025-10-25 21:30:00+00:00
+[2025-10-25T21:52:17.034+0000] {processor.py:208} INFO - Processing /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py took 0.217 seconds
+[2025-10-25T21:53:52.501+0000] {processor.py:186} INFO - Started process (PID=47089) to work on /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py
+[2025-10-25T21:53:52.503+0000] {processor.py:914} INFO - Processing file /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py for tasks to queue
+[2025-10-25T21:53:52.504+0000] {logging_mixin.py:190} INFO - [2025-10-25T21:53:52.504+0000] {dagbag.py:588} INFO - Filling up the DagBag from /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py
+[2025-10-25T21:53:52.593+0000] {processor.py:925} INFO - DAG(s) 'crypto_data_pipeline' retrieved from /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py
+[2025-10-25T21:53:52.644+0000] {logging_mixin.py:190} INFO - [2025-10-25T21:53:52.644+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-25T21:53:52.654+0000] {logging_mixin.py:190} INFO - [2025-10-25T21:53:52.654+0000] {dag.py:4180} INFO - Setting next_dagrun for crypto_data_pipeline to 2025-10-25 21:00:00+00:00, run_after=2025-10-25 21:30:00+00:00
+[2025-10-25T21:53:52.698+0000] {processor.py:208} INFO - Processing /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py took 0.199 seconds
+[2025-10-25T21:54:15.942+0000] {processor.py:186} INFO - Started process (PID=48066) to work on /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py
+[2025-10-25T21:54:15.943+0000] {processor.py:914} INFO - Processing file /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py for tasks to queue
+[2025-10-25T21:54:15.943+0000] {logging_mixin.py:190} INFO - [2025-10-25T21:54:15.943+0000] {dagbag.py:588} INFO - Filling up the DagBag from /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py
+[2025-10-25T21:54:15.972+0000] {processor.py:925} INFO - DAG(s) 'crypto_data_pipeline' retrieved from /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py
+[2025-10-25T21:54:16.009+0000] {logging_mixin.py:190} INFO - [2025-10-25T21:54:16.009+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-25T21:54:16.017+0000] {logging_mixin.py:190} INFO - [2025-10-25T21:54:16.016+0000] {dag.py:4180} INFO - Setting next_dagrun for crypto_data_pipeline to 2025-10-25 21:00:00+00:00, run_after=2025-10-25 21:30:00+00:00
+[2025-10-25T21:54:16.054+0000] {processor.py:208} INFO - Processing /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py took 0.113 seconds
+[2025-10-25T21:56:28.089+0000] {processor.py:186} INFO - Started process (PID=50034) to work on /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py
+[2025-10-25T21:56:28.092+0000] {processor.py:914} INFO - Processing file /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py for tasks to queue
+[2025-10-25T21:56:28.093+0000] {logging_mixin.py:190} INFO - [2025-10-25T21:56:28.093+0000] {dagbag.py:588} INFO - Filling up the DagBag from /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py
+[2025-10-25T21:56:28.156+0000] {processor.py:925} INFO - DAG(s) 'crypto_data_pipeline' retrieved from /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py
+[2025-10-25T21:56:28.215+0000] {logging_mixin.py:190} INFO - [2025-10-25T21:56:28.215+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-25T21:56:28.228+0000] {logging_mixin.py:190} INFO - [2025-10-25T21:56:28.228+0000] {dag.py:4180} INFO - Setting next_dagrun for crypto_data_pipeline to 2025-10-25 21:00:00+00:00, run_after=2025-10-25 21:30:00+00:00
+[2025-10-25T21:56:28.279+0000] {processor.py:208} INFO - Processing /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py took 0.192 seconds
+[2025-10-25T21:57:51.546+0000] {processor.py:186} INFO - Started process (PID=51074) to work on /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py
+[2025-10-25T21:57:51.548+0000] {processor.py:914} INFO - Processing file /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py for tasks to queue
+[2025-10-25T21:57:51.548+0000] {logging_mixin.py:190} INFO - [2025-10-25T21:57:51.548+0000] {dagbag.py:588} INFO - Filling up the DagBag from /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py
+[2025-10-25T21:57:51.591+0000] {processor.py:925} INFO - DAG(s) 'crypto_data_pipeline' retrieved from /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py
+[2025-10-25T21:57:51.627+0000] {logging_mixin.py:190} INFO - [2025-10-25T21:57:51.627+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-25T21:57:51.634+0000] {logging_mixin.py:190} INFO - [2025-10-25T21:57:51.634+0000] {dag.py:4180} INFO - Setting next_dagrun for crypto_data_pipeline to 2025-10-25 21:00:00+00:00, run_after=2025-10-25 21:30:00+00:00
+[2025-10-25T21:57:51.672+0000] {processor.py:208} INFO - Processing /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py took 0.127 seconds
+[2025-10-25T21:59:18.328+0000] {processor.py:186} INFO - Started process (PID=52079) to work on /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py
+[2025-10-25T21:59:18.332+0000] {processor.py:914} INFO - Processing file /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py for tasks to queue
+[2025-10-25T21:59:18.333+0000] {logging_mixin.py:190} INFO - [2025-10-25T21:59:18.333+0000] {dagbag.py:588} INFO - Filling up the DagBag from /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py
+[2025-10-25T21:59:18.379+0000] {processor.py:925} INFO - DAG(s) 'crypto_data_pipeline' retrieved from /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py
+[2025-10-25T21:59:18.424+0000] {logging_mixin.py:190} INFO - [2025-10-25T21:59:18.423+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-25T21:59:18.432+0000] {logging_mixin.py:190} INFO - [2025-10-25T21:59:18.432+0000] {dag.py:4180} INFO - Setting next_dagrun for crypto_data_pipeline to 2025-10-25 21:00:00+00:00, run_after=2025-10-25 21:30:00+00:00
+[2025-10-25T21:59:18.476+0000] {processor.py:208} INFO - Processing /Users/komidoveneymissiamenou/Documents/Master 1 DIT/DataEnge/spark_airflow/dags/dag_import_data.py took 0.150 seconds
